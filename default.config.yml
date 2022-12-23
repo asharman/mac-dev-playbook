@@ -1,0 +1,26 @@
+---
+downloads: ~/.ansible-downloads/
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: false
+dockitems_remove: []
+dockitems_persist: []
+
+homebrew_installed_packages: []
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
