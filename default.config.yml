@@ -6,7 +6,14 @@ configure_dock: false
 dockitems_remove: []
 dockitems_persist: []
 
-homebrew_installed_packages: []
+dotfiles_repo: git@github.com:asharman/dotfiles.git
+dotfiles_repo_version: main
+dotfiles_repo_local_destination: ~/code/github.com/asharman/dotfiles
+dotfiles_files:
+  - .gitconfig
+
+homebrew_installed_packages:
+  - mas
 
 homebrew_taps:
   - homebrew/core
@@ -14,9 +21,11 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - alacritty
   - 1password
 
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1569813296, name: "1Password Safari Extension"}
 mas_email: ""
 mas_password: ""
 
