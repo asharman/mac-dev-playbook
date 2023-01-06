@@ -11,6 +11,10 @@ dotfiles_repo_version: main
 dotfiles_repo_local_destination: ~/code/github.com/asharman/dotfiles
 dotfiles_files:
   - .gitconfig
+  - .config
+  - .alacritty.yml
+  - .zprofile
+  - .zshrc
 
 homebrew_installed_packages:
   - mas
